@@ -1,0 +1,8 @@
+# Define the metrics
+metrics name:e.%totalcpu
+# Limit the output to 5 lines
+# limit 5
+# Set the comparison mode to differences
+compare on
+# Get the function overview
+functions
