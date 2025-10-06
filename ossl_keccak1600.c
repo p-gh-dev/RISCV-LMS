@@ -7,7 +7,11 @@
  * https://www.openssl.org/source/license.html
  */
 
+#ifdef RISCV
+#include "openssl_reqs/e_os2.h"
+#else
 #include <openssl/e_os2.h>
+#endif
 #include <string.h>
 #include <assert.h>
 

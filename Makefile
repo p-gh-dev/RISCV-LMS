@@ -1,6 +1,6 @@
 AR = /usr/bin/ar
 CC = /usr/bin/gcc
-CFLAGS = -Wall -O3
+CFLAGS = -Wall -O3 -g
 
 all: hss_lib.a \
      hss_lib_thread.a \

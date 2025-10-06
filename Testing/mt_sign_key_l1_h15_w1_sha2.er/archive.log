@@ -1,6 +1,0 @@
-### Start Mon Aug 18 14:17:48 2025
-# /usr/bin/gprofng-archive -n -a on --outfile /home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er/archive.log /home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er
-Copying `/home/build/testing/LMS_SHA3/demo'  to `/home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er/archives/demo_yqzmbOq0rn3'
-Copying `/usr/lib/x86_64-linux-gnu/libc.so.6'  to `/home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er/archives/libc.so.6_dnWuQRcLhw9'
-Copying `/usr/lib/x86_64-linux-gnu/gprofng/libgp-collector.so'  to `/home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er/archives/libgp-collector.so_1doggXvug9f'
-Copying `/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2'  to `/home/build/testing/LMS_SHA3/Testing/mt_sign_key_l1_h15_w1_sha2.er/archives/ld-linux-x86-64.so.2_dnWuQRcLhw9'

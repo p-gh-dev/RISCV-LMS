@@ -31,4 +31,6 @@
  */
 #define SECRET_MAX 4  /* Never use a seed more than 16 times */
 
+#define RISCV 1 /* We're building for RISC-V */
+
 #endif /* CONFIG_H_ */

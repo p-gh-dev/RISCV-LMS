@@ -11,8 +11,11 @@
 #ifndef OSSL_INTERNAL_SHA3_H
 # define OSSL_INTERNAL_SHA3_H
 # pragma once
-
+#ifdef RISCV
+# include "openssl_reqs/e_os2.h"
+#else
 # include <openssl/e_os2.h>
+#endif
 # include <stddef.h>
 
 # define KECCAK1600_WIDTH 1600

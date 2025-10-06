@@ -1,0 +1,1920 @@
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w1_sha2.er (Process ID: 6735) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w1_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w1_sha2_mt.pub
+Writing aux data ossl_key_l1_h5_w1_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 8579
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w1_sha2.er (Process ID: 6755) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w1_sha2_mt
+    signed (lipsum_ossl_key_l1_h5_w1_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1652
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w1_sha2.er (Process ID: 6766) ...
+Verifying lipsum_ossl_key_l1_h5_w1_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w1_sha2.er (Process ID: 6770) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w1_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w1_sha2_st.pub
+Writing aux data ossl_key_l1_h5_w1_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 8582
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w1_sha2.er (Process ID: 6774) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w1_sha2_st
+    signed (lipsum_ossl_key_l1_h5_w1_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1668
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w1_sha2.er (Process ID: 6778) ...
+Verifying lipsum_ossl_key_l1_h5_w1_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w1_sha3.er (Process ID: 6784) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w1_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w1_sha3_mt.pub
+Writing aux data ossl_key_l1_h5_w1_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 8726
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w1_sha3.er (Process ID: 6804) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w1_sha3_mt
+    signed (lipsum_ossl_key_l1_h5_w1_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1804
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w1_sha3.er (Process ID: 6815) ...
+Verifying lipsum_ossl_key_l1_h5_w1_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w1_sha3.er (Process ID: 6819) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w1_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w1_sha3_st.pub
+Writing aux data ossl_key_l1_h5_w1_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 8726
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w1_sha3.er (Process ID: 6823) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w1_sha3_st
+    signed (lipsum_ossl_key_l1_h5_w1_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1812
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w1_sha3.er (Process ID: 6827) ...
+Verifying lipsum_ossl_key_l1_h5_w1_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w2_sha2.er (Process ID: 6833) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w2_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w2_sha2_mt.pub
+Writing aux data ossl_key_l1_h5_w2_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 4346
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w2_sha2.er (Process ID: 6853) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w2_sha2_mt
+    signed (lipsum_ossl_key_l1_h5_w2_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 874
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w2_sha2.er (Process ID: 6864) ...
+Verifying lipsum_ossl_key_l1_h5_w2_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w2_sha2.er (Process ID: 6868) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w2_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w2_sha2_st.pub
+Writing aux data ossl_key_l1_h5_w2_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 4358
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w2_sha2.er (Process ID: 6872) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w2_sha2_st
+    signed (lipsum_ossl_key_l1_h5_w2_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 876
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w2_sha2.er (Process ID: 6876) ...
+Verifying lipsum_ossl_key_l1_h5_w2_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w2_sha3.er (Process ID: 6882) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w2_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w2_sha3_mt.pub
+Writing aux data ossl_key_l1_h5_w2_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 4497
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w2_sha3.er (Process ID: 6902) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w2_sha3_mt
+    signed (lipsum_ossl_key_l1_h5_w2_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1019
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w2_sha3.er (Process ID: 6913) ...
+Verifying lipsum_ossl_key_l1_h5_w2_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w2_sha3.er (Process ID: 6917) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w2_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w2_sha3_st.pub
+Writing aux data ossl_key_l1_h5_w2_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 4502
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w2_sha3.er (Process ID: 6921) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w2_sha3_st
+    signed (lipsum_ossl_key_l1_h5_w2_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 1020
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w2_sha3.er (Process ID: 6925) ...
+Verifying lipsum_ossl_key_l1_h5_w2_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w4_sha2.er (Process ID: 6931) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w4_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w4_sha2_mt.pub
+Writing aux data ossl_key_l1_h5_w4_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 2246
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w4_sha2.er (Process ID: 6951) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w4_sha2_mt
+    signed (lipsum_ossl_key_l1_h5_w4_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 480
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w4_sha2.er (Process ID: 6962) ...
+Verifying lipsum_ossl_key_l1_h5_w4_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w4_sha2.er (Process ID: 6966) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w4_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w4_sha2_st.pub
+Writing aux data ossl_key_l1_h5_w4_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 2246
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w4_sha2.er (Process ID: 6970) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w4_sha2_st
+    signed (lipsum_ossl_key_l1_h5_w4_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 480
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w4_sha2.er (Process ID: 6974) ...
+Verifying lipsum_ossl_key_l1_h5_w4_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w4_sha3.er (Process ID: 6980) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w4_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w4_sha3_mt.pub
+Writing aux data ossl_key_l1_h5_w4_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 2390
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w4_sha3.er (Process ID: 7000) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w4_sha3_mt
+    signed (lipsum_ossl_key_l1_h5_w4_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 624
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w4_sha3.er (Process ID: 7011) ...
+Verifying lipsum_ossl_key_l1_h5_w4_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w4_sha3.er (Process ID: 7015) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w4_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w4_sha3_st.pub
+Writing aux data ossl_key_l1_h5_w4_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 2390
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w4_sha3.er (Process ID: 7019) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w4_sha3_st
+    signed (lipsum_ossl_key_l1_h5_w4_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 624
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w4_sha3.er (Process ID: 7023) ...
+Verifying lipsum_ossl_key_l1_h5_w4_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w8_sha2.er (Process ID: 7029) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w8_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w8_sha2_mt.pub
+Writing aux data ossl_key_l1_h5_w8_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 1190
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w8_sha2.er (Process ID: 7049) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w8_sha2_mt
+    signed (lipsum_ossl_key_l1_h5_w8_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 282
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w8_sha2.er (Process ID: 7060) ...
+Verifying lipsum_ossl_key_l1_h5_w8_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w8_sha2.er (Process ID: 7064) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 5 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w8_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w8_sha2_st.pub
+Writing aux data ossl_key_l1_h5_w8_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 1190
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w8_sha2.er (Process ID: 7068) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w8_sha2_st
+    signed (lipsum_ossl_key_l1_h5_w8_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 282
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w8_sha2.er (Process ID: 7072) ...
+Verifying lipsum_ossl_key_l1_h5_w8_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h5_w8_sha3.er (Process ID: 7078) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w8_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w8_sha3_mt.pub
+Writing aux data ossl_key_l1_h5_w8_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 1334
+Incremental hash finalizes: 35
+Creating experiment directory MT/mt_sign_ossl_key_l1_h5_w8_sha3.er (Process ID: 7098) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w8_sha3_mt
+    signed (lipsum_ossl_key_l1_h5_w8_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 426
+Incremental hash finalizes: 10
+Creating experiment directory MT/mt_verify_ossl_key_l1_h5_w8_sha3.er (Process ID: 7109) ...
+Verifying lipsum_ossl_key_l1_h5_w8_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h5_w8_sha3.er (Process ID: 7113) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 5 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 356
+Generating private key ossl_key_l1_h5_w8_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h5_w8_sha3_st.pub
+Writing aux data ossl_key_l1_h5_w8_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 35
+Incremental hash updates: 1334
+Incremental hash finalizes: 35
+Creating experiment directory ST/st_sign_ossl_key_l1_h5_w8_sha3.er (Process ID: 7117) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h5_w8_sha3_st
+    signed (lipsum_ossl_key_l1_h5_w8_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 10
+Incremental hash updates: 426
+Incremental hash finalizes: 10
+Creating experiment directory ST/st_verify_ossl_key_l1_h5_w8_sha3.er (Process ID: 7121) ...
+Verifying lipsum_ossl_key_l1_h5_w8_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w1_sha2.er (Process ID: 7127) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w1_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w1_sha2_mt.pub
+Writing aux data ossl_key_l1_h10_w1_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 272314
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w1_sha2.er (Process ID: 7147) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w1_sha2_mt
+    signed (lipsum_ossl_key_l1_h10_w1_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 2198
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w1_sha2.er (Process ID: 7160) ...
+Verifying lipsum_ossl_key_l1_h10_w1_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w1_sha2.er (Process ID: 7164) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w1_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w1_sha2_st.pub
+Writing aux data ossl_key_l1_h10_w1_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 272454
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w1_sha2.er (Process ID: 7168) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w1_sha2_st
+    signed (lipsum_ossl_key_l1_h10_w1_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 2200
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w1_sha2.er (Process ID: 7172) ...
+Verifying lipsum_ossl_key_l1_h10_w1_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w1_sha3.er (Process ID: 7178) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w1_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w1_sha3_mt.pub
+Writing aux data ossl_key_l1_h10_w1_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 272592
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w1_sha3.er (Process ID: 7198) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w1_sha3_mt
+    signed (lipsum_ossl_key_l1_h10_w1_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 2344
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w1_sha3.er (Process ID: 7211) ...
+Verifying lipsum_ossl_key_l1_h10_w1_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w1_sha3.er (Process ID: 7215) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w1_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w1_sha3_st.pub
+Writing aux data ossl_key_l1_h10_w1_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 272598
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w1_sha3.er (Process ID: 7219) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w1_sha3_st
+    signed (lipsum_ossl_key_l1_h10_w1_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 2344
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w1_sha3.er (Process ID: 7223) ...
+Verifying lipsum_ossl_key_l1_h10_w1_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w2_sha2.er (Process ID: 7229) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w2_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w2_sha2_mt.pub
+Writing aux data ossl_key_l1_h10_w2_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 137284
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w2_sha2.er (Process ID: 7249) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w2_sha2_mt
+    signed (lipsum_ossl_key_l1_h10_w2_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 1124
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w2_sha2.er (Process ID: 7262) ...
+Verifying lipsum_ossl_key_l1_h10_w2_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w2_sha2.er (Process ID: 7266) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w2_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w2_sha2_st.pub
+Writing aux data ossl_key_l1_h10_w2_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 137286
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w2_sha2.er (Process ID: 7270) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w2_sha2_st
+    signed (lipsum_ossl_key_l1_h10_w2_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 1144
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w2_sha2.er (Process ID: 7274) ...
+Verifying lipsum_ossl_key_l1_h10_w2_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w2_sha3.er (Process ID: 7280) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w2_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w2_sha3_mt.pub
+Writing aux data ossl_key_l1_h10_w2_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 136280
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w2_sha3.er (Process ID: 7300) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w2_sha3_mt
+    signed (lipsum_ossl_key_l1_h10_w2_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 1287
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w2_sha3.er (Process ID: 7313) ...
+Verifying lipsum_ossl_key_l1_h10_w2_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w2_sha3.er (Process ID: 7317) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w2_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w2_sha3_st.pub
+Writing aux data ossl_key_l1_h10_w2_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 137430
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w2_sha3.er (Process ID: 7321) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w2_sha3_st
+    signed (lipsum_ossl_key_l1_h10_w2_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 1288
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w2_sha3.er (Process ID: 7325) ...
+Verifying lipsum_ossl_key_l1_h10_w2_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w4_sha2.er (Process ID: 7331) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w4_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w4_sha2_mt.pub
+Writing aux data ossl_key_l1_h10_w4_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 69702
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w4_sha2.er (Process ID: 7351) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w4_sha2_mt
+    signed (lipsum_ossl_key_l1_h10_w4_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 613
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w4_sha2.er (Process ID: 7364) ...
+Verifying lipsum_ossl_key_l1_h10_w4_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w4_sha2.er (Process ID: 7368) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w4_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w4_sha2_st.pub
+Writing aux data ossl_key_l1_h10_w4_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 69702
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w4_sha2.er (Process ID: 7372) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w4_sha2_st
+    signed (lipsum_ossl_key_l1_h10_w4_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 616
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w4_sha2.er (Process ID: 7376) ...
+Verifying lipsum_ossl_key_l1_h10_w4_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w4_sha3.er (Process ID: 7382) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w4_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w4_sha3_mt.pub
+Writing aux data ossl_key_l1_h10_w4_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 69845
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w4_sha3.er (Process ID: 7402) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w4_sha3_mt
+    signed (lipsum_ossl_key_l1_h10_w4_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 760
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w4_sha3.er (Process ID: 7415) ...
+Verifying lipsum_ossl_key_l1_h10_w4_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w4_sha3.er (Process ID: 7419) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w4_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w4_sha3_st.pub
+Writing aux data ossl_key_l1_h10_w4_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 69846
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w4_sha3.er (Process ID: 7423) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w4_sha3_st
+    signed (lipsum_ossl_key_l1_h10_w4_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 760
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w4_sha3.er (Process ID: 7427) ...
+Verifying lipsum_ossl_key_l1_h10_w4_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w8_sha2.er (Process ID: 7433) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w8_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w8_sha2_mt.pub
+Writing aux data ossl_key_l1_h10_w8_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 35908
+Incremental hash finalizes: 1025
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w8_sha2.er (Process ID: 7453) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w8_sha2_mt
+    signed (lipsum_ossl_key_l1_h10_w8_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 352
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w8_sha2.er (Process ID: 7466) ...
+Verifying lipsum_ossl_key_l1_h10_w8_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w8_sha2.er (Process ID: 7470) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 10 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w8_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w8_sha2_st.pub
+Writing aux data ossl_key_l1_h10_w8_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 35910
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w8_sha2.er (Process ID: 7474) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w8_sha2_st
+    signed (lipsum_ossl_key_l1_h10_w8_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 352
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w8_sha2.er (Process ID: 7478) ...
+Verifying lipsum_ossl_key_l1_h10_w8_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h10_w8_sha3.er (Process ID: 7484) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w8_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w8_sha3_mt.pub
+Writing aux data ossl_key_l1_h10_w8_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 36054
+Incremental hash finalizes: 1027
+Creating experiment directory MT/mt_sign_ossl_key_l1_h10_w8_sha3.er (Process ID: 7504) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w8_sha3_mt
+    signed (lipsum_ossl_key_l1_h10_w8_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 496
+Incremental hash finalizes: 12
+Creating experiment directory MT/mt_verify_ossl_key_l1_h10_w8_sha3.er (Process ID: 7517) ...
+Verifying lipsum_ossl_key_l1_h10_w8_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h10_w8_sha3.er (Process ID: 7521) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 10 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h10_w8_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h10_w8_sha3_st.pub
+Writing aux data ossl_key_l1_h10_w8_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1027
+Incremental hash updates: 36054
+Incremental hash finalizes: 1027
+Creating experiment directory ST/st_sign_ossl_key_l1_h10_w8_sha3.er (Process ID: 7525) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h10_w8_sha3_st
+    signed (lipsum_ossl_key_l1_h10_w8_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 12
+Incremental hash updates: 496
+Incremental hash finalizes: 12
+Creating experiment directory ST/st_verify_ossl_key_l1_h10_w8_sha3.er (Process ID: 7529) ...
+Verifying lipsum_ossl_key_l1_h10_w8_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w1_sha2.er (Process ID: 7535) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w1_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w1_sha2_mt.pub
+Writing aux data ossl_key_l1_h15_w1_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 8716290
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w1_sha2.er (Process ID: 7555) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w1_sha2_mt
+    signed (lipsum_ossl_key_l1_h15_w1_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 70025
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w1_sha2.er (Process ID: 7583) ...
+Verifying lipsum_ossl_key_l1_h15_w1_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w1_sha2.er (Process ID: 7587) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w1_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w1_sha2_st.pub
+Writing aux data ossl_key_l1_h15_w1_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 8716358
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w1_sha2.er (Process ID: 7591) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w1_sha2_st
+    signed (lipsum_ossl_key_l1_h15_w1_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 70030
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w1_sha2.er (Process ID: 7595) ...
+Verifying lipsum_ossl_key_l1_h15_w1_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w1_sha3.er (Process ID: 7601) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w1_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w1_sha3_mt.pub
+Writing aux data ossl_key_l1_h15_w1_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 8716476
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w1_sha3.er (Process ID: 7621) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w1_sha3_mt
+    signed (lipsum_ossl_key_l1_h15_w1_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 70172
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w1_sha3.er (Process ID: 7649) ...
+Verifying lipsum_ossl_key_l1_h15_w1_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w1_sha3.er (Process ID: 7653) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w1_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w1_sha3_st.pub
+Writing aux data ossl_key_l1_h15_w1_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 8716502
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w1_sha3.er (Process ID: 7657) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w1_sha3_st
+    signed (lipsum_ossl_key_l1_h15_w1_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 70174
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w1_sha3.er (Process ID: 7661) ...
+Verifying lipsum_ossl_key_l1_h15_w1_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w2_sha2.er (Process ID: 7667) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w2_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w2_sha2_mt.pub
+Writing aux data ossl_key_l1_h15_w2_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 4390938
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w2_sha2.er (Process ID: 7687) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w2_sha2_mt
+    signed (lipsum_ossl_key_l1_h15_w2_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 35308
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w2_sha2.er (Process ID: 7715) ...
+Verifying lipsum_ossl_key_l1_h15_w2_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w2_sha2.er (Process ID: 7719) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w2_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w2_sha2_st.pub
+Writing aux data ossl_key_l1_h15_w2_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 4390982
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w2_sha2.er (Process ID: 7723) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w2_sha2_st
+    signed (lipsum_ossl_key_l1_h15_w2_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 35314
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w2_sha2.er (Process ID: 7727) ...
+Verifying lipsum_ossl_key_l1_h15_w2_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w2_sha3.er (Process ID: 7733) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w2_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w2_sha3_mt.pub
+Writing aux data ossl_key_l1_h15_w2_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 4344012
+Incremental hash finalizes: 32769
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w2_sha3.er (Process ID: 7753) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w2_sha3_mt
+    signed (lipsum_ossl_key_l1_h15_w2_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 35235
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w2_sha3.er (Process ID: 7781) ...
+Verifying lipsum_ossl_key_l1_h15_w2_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w2_sha3.er (Process ID: 7785) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w2_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w2_sha3_st.pub
+Writing aux data ossl_key_l1_h15_w2_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 4391126
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w2_sha3.er (Process ID: 7789) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w2_sha3_st
+    signed (lipsum_ossl_key_l1_h15_w2_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 35458
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w2_sha3.er (Process ID: 7793) ...
+Verifying lipsum_ossl_key_l1_h15_w2_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w4_sha2.er (Process ID: 7799) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w4_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w4_sha2_mt.pub
+Writing aux data ossl_key_l1_h15_w4_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 2228270
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w4_sha2.er (Process ID: 7819) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w4_sha2_mt
+    signed (lipsum_ossl_key_l1_h15_w4_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 17953
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w4_sha2.er (Process ID: 7847) ...
+Verifying lipsum_ossl_key_l1_h15_w4_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w4_sha2.er (Process ID: 7851) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w4_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w4_sha2_st.pub
+Writing aux data ossl_key_l1_h15_w4_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 2228294
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w4_sha2.er (Process ID: 7855) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w4_sha2_st
+    signed (lipsum_ossl_key_l1_h15_w4_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 17956
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w4_sha2.er (Process ID: 7859) ...
+Verifying lipsum_ossl_key_l1_h15_w4_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w4_sha3.er (Process ID: 7865) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w4_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w4_sha3_mt.pub
+Writing aux data ossl_key_l1_h15_w4_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 2228405
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w4_sha3.er (Process ID: 7885) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w4_sha3_mt
+    signed (lipsum_ossl_key_l1_h15_w4_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 18100
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w4_sha3.er (Process ID: 7913) ...
+Verifying lipsum_ossl_key_l1_h15_w4_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w4_sha3.er (Process ID: 7917) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w4_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w4_sha3_st.pub
+Writing aux data ossl_key_l1_h15_w4_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 2228438
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w4_sha3.er (Process ID: 7921) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w4_sha3_st
+    signed (lipsum_ossl_key_l1_h15_w4_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 18100
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w4_sha3.er (Process ID: 7925) ...
+Verifying lipsum_ossl_key_l1_h15_w4_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w8_sha2.er (Process ID: 7931) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w8_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w8_sha2_mt.pub
+Writing aux data ossl_key_l1_h15_w8_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32766
+Incremental hash updates: 1146810
+Incremental hash finalizes: 32719
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w8_sha2.er (Process ID: 7951) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w8_sha2_mt
+    signed (lipsum_ossl_key_l1_h15_w8_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 9277
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w8_sha2.er (Process ID: 7979) ...
+Verifying lipsum_ossl_key_l1_h15_w8_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w8_sha2.er (Process ID: 7983) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 15 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w8_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w8_sha2_st.pub
+Writing aux data ossl_key_l1_h15_w8_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 1146950
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w8_sha2.er (Process ID: 7987) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w8_sha2_st
+    signed (lipsum_ossl_key_l1_h15_w8_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 9277
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w8_sha2.er (Process ID: 7991) ...
+Verifying lipsum_ossl_key_l1_h15_w8_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h15_w8_sha3.er (Process ID: 7997) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w8_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w8_sha3_mt.pub
+Writing aux data ossl_key_l1_h15_w8_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 1147066
+Incremental hash finalizes: 32771
+Creating experiment directory MT/mt_sign_ossl_key_l1_h15_w8_sha3.er (Process ID: 8017) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w8_sha3_mt
+    signed (lipsum_ossl_key_l1_h15_w8_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 9421
+Incremental hash finalizes: 267
+Creating experiment directory MT/mt_verify_ossl_key_l1_h15_w8_sha3.er (Process ID: 8045) ...
+Verifying lipsum_ossl_key_l1_h15_w8_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h15_w8_sha3.er (Process ID: 8049) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 15 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 5476
+Generating private key ossl_key_l1_h15_w8_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h15_w8_sha3_st.pub
+Writing aux data ossl_key_l1_h15_w8_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 32771
+Incremental hash updates: 1147094
+Incremental hash finalizes: 32771
+Creating experiment directory ST/st_sign_ossl_key_l1_h15_w8_sha3.er (Process ID: 8053) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h15_w8_sha3_st
+    signed (lipsum_ossl_key_l1_h15_w8_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 267
+Incremental hash updates: 9421
+Incremental hash finalizes: 267
+Creating experiment directory ST/st_verify_ossl_key_l1_h15_w8_sha3.er (Process ID: 8057) ...
+Verifying lipsum_ossl_key_l1_h15_w8_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w1_sha2.er (Process ID: 8063) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w1_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w1_sha2_mt.pub
+Writing aux data ossl_key_l1_h20_w1_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 278919562
+Incremental hash finalizes: 1048579
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w1_sha2.er (Process ID: 8083) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w1_sha2_mt
+    signed (lipsum_ossl_key_l1_h20_w1_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 1091994
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w1_sha2.er (Process ID: 8113) ...
+Verifying lipsum_ossl_key_l1_h20_w1_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w1_sha2.er (Process ID: 8117) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w1_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w1_sha2_st.pub
+Writing aux data ossl_key_l1_h20_w1_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 278921286
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w1_sha2.er (Process ID: 8121) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w1_sha2_st
+    signed (lipsum_ossl_key_l1_h20_w1_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 1092002
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w1_sha2.er (Process ID: 8125) ...
+Verifying lipsum_ossl_key_l1_h20_w1_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w1_sha3.er (Process ID: 8131) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w1_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w1_sha3_mt.pub
+Writing aux data ossl_key_l1_h20_w1_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048578
+Incremental hash updates: 278920533
+Incremental hash finalizes: 1048579
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w1_sha3.er (Process ID: 8151) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w1_sha3_mt
+    signed (lipsum_ossl_key_l1_h20_w1_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 1092139
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w1_sha3.er (Process ID: 8181) ...
+Verifying lipsum_ossl_key_l1_h20_w1_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w1_sha3.er (Process ID: 8185) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 1
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w1_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w1_sha3_st.pub
+Writing aux data ossl_key_l1_h20_w1_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 278921430
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w1_sha3.er (Process ID: 8189) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w1_sha3_st
+    signed (lipsum_ossl_key_l1_h20_w1_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 1092146
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w1_sha3.er (Process ID: 8193) ...
+Verifying lipsum_ossl_key_l1_h20_w1_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 268
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w2_sha2.er (Process ID: 8199) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w2_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w2_sha2_mt.pub
+Writing aux data ossl_key_l1_h20_w2_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 140508248
+Incremental hash finalizes: 1048577
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w2_sha2.er (Process ID: 8219) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w2_sha2_mt
+    signed (lipsum_ossl_key_l1_h20_w2_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 550119
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w2_sha2.er (Process ID: 8249) ...
+Verifying lipsum_ossl_key_l1_h20_w2_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w2_sha2.er (Process ID: 8253) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w2_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w2_sha2_st.pub
+Writing aux data ossl_key_l1_h20_w2_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 140509254
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w2_sha2.er (Process ID: 8257) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w2_sha2_st
+    signed (lipsum_ossl_key_l1_h20_w2_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 550142
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w2_sha2.er (Process ID: 8261) ...
+Verifying lipsum_ossl_key_l1_h20_w2_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w2_sha3.er (Process ID: 8267) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w2_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w2_sha3_mt.pub
+Writing aux data ossl_key_l1_h20_w2_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 139047401
+Incremental hash finalizes: 1048510
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w2_sha3.er (Process ID: 8287) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w2_sha3_mt
+    signed (lipsum_ossl_key_l1_h20_w2_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 544762
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w2_sha3.er (Process ID: 8317) ...
+Verifying lipsum_ossl_key_l1_h20_w2_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w2_sha3.er (Process ID: 8321) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 2
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w2_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w2_sha3_st.pub
+Writing aux data ossl_key_l1_h20_w2_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 140509398
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w2_sha3.er (Process ID: 8325) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w2_sha3_st
+    signed (lipsum_ossl_key_l1_h20_w2_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 550286
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w2_sha3.er (Process ID: 8329) ...
+Verifying lipsum_ossl_key_l1_h20_w2_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 136
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w4_sha2.er (Process ID: 8335) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w4_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w4_sha2_mt.pub
+Writing aux data ossl_key_l1_h20_w4_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 71302526
+Incremental hash finalizes: 1048579
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w4_sha2.er (Process ID: 8355) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w4_sha2_mt
+    signed (lipsum_ossl_key_l1_h20_w4_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 279210
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w4_sha2.er (Process ID: 8385) ...
+Verifying lipsum_ossl_key_l1_h20_w4_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w4_sha2.er (Process ID: 8389) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w4_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w4_sha2_st.pub
+Writing aux data ossl_key_l1_h20_w4_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 71303238
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w4_sha2.er (Process ID: 8393) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w4_sha2_st
+    signed (lipsum_ossl_key_l1_h20_w4_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 279212
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w4_sha2.er (Process ID: 8397) ...
+Verifying lipsum_ossl_key_l1_h20_w4_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w4_sha3.er (Process ID: 8403) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w4_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w4_sha3_mt.pub
+Writing aux data ossl_key_l1_h20_w4_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048576
+Incremental hash updates: 71302607
+Incremental hash finalizes: 1048579
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w4_sha3.er (Process ID: 8423) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w4_sha3_mt
+    signed (lipsum_ossl_key_l1_h20_w4_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 279347
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w4_sha3.er (Process ID: 8453) ...
+Verifying lipsum_ossl_key_l1_h20_w4_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w4_sha3.er (Process ID: 8457) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 4
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w4_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w4_sha3_st.pub
+Writing aux data ossl_key_l1_h20_w4_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 71303382
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w4_sha3.er (Process ID: 8461) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w4_sha3_st
+    signed (lipsum_ossl_key_l1_h20_w4_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 279356
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w4_sha3.er (Process ID: 8465) ...
+Verifying lipsum_ossl_key_l1_h20_w4_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 70
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w8_sha2.er (Process ID: 8471) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w8_sha2_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w8_sha2_mt.pub
+Writing aux data ossl_key_l1_h20_w8_sha2_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048498
+Incremental hash updates: 36694703
+Incremental hash finalizes: 1046975
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w8_sha2.er (Process ID: 8491) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w8_sha2_mt
+    signed (lipsum_ossl_key_l1_h20_w8_sha2_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 143725
+Incremental hash finalizes: 4107
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w8_sha2.er (Process ID: 8521) ...
+Verifying lipsum_ossl_key_l1_h20_w8_sha2_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w8_sha2.er (Process ID: 8525) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHA-256; 20 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w8_sha2_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w8_sha2_st.pub
+Writing aux data ossl_key_l1_h20_w8_sha2_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 36700230
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w8_sha2.er (Process ID: 8529) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w8_sha2_st
+    signed (lipsum_ossl_key_l1_h20_w8_sha2_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 143747
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w8_sha2.er (Process ID: 8533) ...
+Verifying lipsum_ossl_key_l1_h20_w8_sha2_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory MT/mt_genkey_ossl_key_l1_h20_w8_sha3.er (Process ID: 8539) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w8_sha3_mt.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w8_sha3_mt.pub
+Writing aux data ossl_key_l1_h20_w8_sha3_mt.aux
+Hash function calls: 0
+Incremental hash inits: 1048575
+Incremental hash updates: 36699784
+Incremental hash finalizes: 1048579
+Creating experiment directory MT/mt_sign_ossl_key_l1_h20_w8_sha3.er (Process ID: 8559) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w8_sha3_mt
+    signed (lipsum_ossl_key_l1_h20_w8_sha3_mt.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 143890
+Incremental hash finalizes: 4109
+Creating experiment directory MT/mt_verify_ossl_key_l1_h20_w8_sha3.er (Process ID: 8589) ...
+Verifying lipsum_ossl_key_l1_h20_w8_sha3_mt
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2
+Creating experiment directory ST/st_genkey_ossl_key_l1_h20_w8_sha3.er (Process ID: 8593) ...
+Parameter set being used: there are 1 levels of Merkle trees
+Level 0: hash function = SHAKE-256; 20 level Merkle tree; Winternitz param 8
+Maximum of 10916 bytes of aux data
+aux_len = 10916
+Generating private key ossl_key_l1_h20_w8_sha3_st.prv (will take a while)
+Success!
+Writing public key ossl_key_l1_h20_w8_sha3_st.pub
+Writing aux data ossl_key_l1_h20_w8_sha3_st.aux
+Hash function calls: 0
+Incremental hash inits: 1048579
+Incremental hash updates: 36700374
+Incremental hash finalizes: 1048579
+Creating experiment directory ST/st_sign_ossl_key_l1_h20_w8_sha3.er (Process ID: 8597) ...
+Processing with aux data
+Loading private key
+Loaded private key
+Signing lipsum_ossl_key_l1_h20_w8_sha3_st
+    signed (lipsum_ossl_key_l1_h20_w8_sha3_st.sig)
+Hash function calls: 0
+Incremental hash inits: 4109
+Incremental hash updates: 143891
+Incremental hash finalizes: 4109
+Creating experiment directory ST/st_verify_ossl_key_l1_h20_w8_sha3.er (Process ID: 8601) ...
+Verifying lipsum_ossl_key_l1_h20_w8_sha3_st
+    Signature verified
+Hash function calls: 0
+Incremental hash inits: 2
+Incremental hash updates: 37
+Incremental hash finalizes: 2

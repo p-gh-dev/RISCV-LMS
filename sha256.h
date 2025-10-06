@@ -10,9 +10,11 @@
                         /* C version) */
 
 #if USE_OPENSSL
-
+#ifdef RISCV
+#include "openssl_reqs/sha.h"
+#else
 #include <openssl/sha.h>
-
+#endif
 #else
 
 /* SHA256 context. */
