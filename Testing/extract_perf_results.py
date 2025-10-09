@@ -5,7 +5,7 @@ import platform
 
 # Detect OS and set default results_dir
 if platform.system() == 'Windows':
-    results_dir = r'c:\Users\phokamp\Documents\Results\test'
+    results_dir = r'c:\Users\phokamp\Documents\Results'
 else:
     results_dir = 'pwd'  # Change as needed
 
@@ -30,40 +30,69 @@ metrics = [
     'seconds sys'
 ]
 
+extra_patterns = [
+    (r'cycles\s*#\s*([\d\.]+)\s*GHz', 'cycles_freq'),
+    (r'instructions\s*#\s*([\d\.]+)\s*insn per cycle', 'instructions_per_cycle'),
+    (r'branches\s*#\s*([\d\.]+)\s*M/sec', 'branches_msec'),
+    (r'branch-misses\s*#\s*([\d\.]+)% of all branches', 'branch-misses_percent'),
+]
+
 def parse_perf_file(filepath):
     data = {}
     with open(filepath, 'r') as f:
-        for line in f:
-            # General metrics
+        lines = f.readlines()
+        metric_found = False
+        for line in lines:
+            # General metrics (allow commas in numbers)
             m = re.match(
-                r'^\s*([\d\.]+)\s*(\w+)?\s+([a-zA-Z\-]+)\s*(?:#\s*(.*))?$',
+                r'^\s*([\d\.,]+)\s*(\w+)?\s+([a-zA-Z\-]+)(?:\s*/sec)?\s*(?:#\s*([^\n]+))?$',
                 line
             )
             if m:
-                value = m.group(1)
+                metric_found = True
+                value = m.group(1).replace(',', '')  # Remove commas for numeric values
                 unit = m.group(2)
                 metric = m.group(3).strip()
                 comment = m.group(4).strip() if m.group(4) else ''
-                if metric in metrics:
-                    if metric == 'task-clock' and unit == 'msec':
+                metric_key = metric
+                if metric_key in metrics:
+                    if metric_key == 'task-clock' and unit == 'msec':
                         value = str(float(value) / 1000)
                         unit = 'sec'
-                    data[metric] = f"{value} {unit}" if unit and metric != 'task-clock' else value
+                    if metric_key.startswith('seconds'):
+                        data[metric_key] = value
+                    else:
+                        data[metric_key] = f"{value} {unit}" if unit and metric_key != 'task-clock' else value
                     if comment:
-                        data[metric + '_comment'] = comment
-            # Time metrics (with comments)
+                        data[metric_key + '_comment'] = comment
+            # Time metrics (with comments, allow commas)
             m2 = re.match(
-                r'^\s*([\d\.]+)\s+seconds (time elapsed|user|sys)\s*(?:#\s*(.*))?$',
+                r'^\s*([\d\.,]+)\s+seconds (time elapsed|user|sys)\s*(?:#\s*([^\n]+))?$',
                 line
             )
             if m2:
-                value = m2.group(1)
+                metric_found = True
+                value = m2.group(1).replace(',', '')
                 metric = f"seconds {m2.group(2)}"
                 comment = m2.group(3).strip() if m2.group(3) else ''
                 if metric in metrics:
                     data[metric] = value
                     if comment:
                         data[metric + '_comment'] = comment
+            # Extra metrics (allow commas)
+            for pat, key in [
+                (r'cycles\s*#\s*([\d\.,]+)\s*GHz', 'cycles_freq'),
+                (r'instructions\s*#\s*([\d\.,]+)\s*insn per cycle', 'instructions_per_cycle'),
+                (r'branches\s*#\s*([\d\.,]+)\s*M/sec', 'branches_msec'),
+                (r'branch-misses\s*#\s*([\d\.,]+)% of all branches', 'branch-misses_percent'),
+            ]:
+                m = re.search(pat, line)
+                if m:
+                    metric_found = True
+                    data[key] = m.group(1).replace(',', '')
+        # If no metrics found, mark as faulty
+        if not metric_found:
+            data['file_error'] = 'no_metrics_found'
     return data
 
 def get_board_name(filename):
@@ -93,15 +122,14 @@ def parse_filename(filename):
 files = []
 for root, _, filenames in os.walk(results_dir):
     for f in filenames:
-        if f.endswith('_gk_res_st.txt') or f.endswith('_gk_res_mt.txt') or \
-           f.endswith('_sg_res_st.txt') or f.endswith('_sg_res_mt.txt') or \
-           f.endswith('_vf_res_st.txt') or f.endswith('_vf_res_mt.txt'):
+        if f.endswith('_res_st.txt') or f.endswith('_res_mt.txt'):
             files.append(os.path.join(root, f))
 
 fieldnames = ['board', 'multithreaded', 'hash_function', 'implementation', 'height', 'winternitz', 'operation']
 for metric in metrics:
     fieldnames.append(metric)
     fieldnames.append(metric + '_comment')
+fieldnames += ['cycles_freq', 'instructions_per_cycle', 'branches_msec', 'branch-misses_percent', 'file_error']
 
 rows = []
 for filepath in files:
