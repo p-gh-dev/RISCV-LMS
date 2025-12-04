@@ -13,7 +13,7 @@ board_map = {
     'vf2': 'VisionFive2',
     'mvj': 'MilkV Jupiter',
     'p550': 'SiFive P550',
-    'bgv': 'BeagleV Ahead'
+    'bgva': 'BeagleV Ahead'
 }
 
 metrics = [
