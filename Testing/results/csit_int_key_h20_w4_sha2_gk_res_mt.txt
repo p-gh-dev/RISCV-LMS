@@ -1,0 +1,22 @@
+# started on Fri Oct 10 09:11:31 2025
+
+
+ Performance counter stats for '../../demo genkey csit_int_key_h20_w4_sha2_mt sha2/20/4':
+
+        409,728.23 msec task-clock                       #   15.792 CPUs utilized             
+             4,145      context-switches                 #   10.116 /sec                      
+               117      cpu-migrations                   #    0.286 /sec                      
+               483      page-faults                      #    1.179 /sec                      
+ 1,514,016,670,713      cycles                           #    3.695 GHz                       
+     6,509,938,075      stalled-cycles-frontend          #    0.43% frontend cycles idle      
+ 7,521,132,263,761      instructions                     #    4.97  insn per cycle            
+                                                  #    0.00  stalled cycles per insn   
+   415,036,391,376      branches                         #    1.013 G/sec                     
+       179,121,920      branch-misses                    #    0.04% of all branches           
+
+      25.946041676 seconds time elapsed
+
+     409.686239000 seconds user
+       0.027995000 seconds sys
+
+

@@ -1,0 +1,22 @@
+# started on Fri Oct 10 09:37:44 2025
+
+
+ Performance counter stats for '../../demo verify csit_int_key_h20_w8_sha2_mt lipsum_csit_int_key_h20_w8_sha2_mt':
+
+              3.19 msec task-clock                       #    0.789 CPUs utilized             
+                 0      context-switches                 #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+                66      page-faults                      #   20.657 K/sec                     
+         6,735,047      cycles                           #    2.108 GHz                       
+         1,092,878      stalled-cycles-frontend          #   16.23% frontend cycles idle      
+        27,517,916      instructions                     #    4.09  insn per cycle            
+                                                  #    0.04  stalled cycles per insn   
+         1,635,557      branches                         #  511.916 M/sec                     
+            34,505      branch-misses                    #    2.11% of all branches           
+
+       0.004050120 seconds time elapsed
+
+       0.002071000 seconds user
+       0.002071000 seconds sys
+
+

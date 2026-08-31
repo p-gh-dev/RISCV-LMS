@@ -1,1 +1,9 @@
 /Testing/test_data.zip
+*.o
+*.a
+demo
+demo_st
+demo_int
+demo_ossl
+demo_st_int
+demo_st_ossl

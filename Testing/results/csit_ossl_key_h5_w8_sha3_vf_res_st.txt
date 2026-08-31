@@ -1,0 +1,22 @@
+# started on Thu Oct  9 16:02:09 2025
+
+
+ Performance counter stats for '../../demo_st verify csit_ossl_key_h5_w8_sha3_st lipsum_csit_ossl_key_h5_w8_sha3_st':
+
+              4.29 msec task-clock                       #    0.828 CPUs utilized             
+                 0      context-switches                 #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               180      page-faults                      #   41.976 K/sec                     
+         9,045,403      cycles                           #    2.109 GHz                       
+         1,818,210      stalled-cycles-frontend          #   20.10% frontend cycles idle      
+        31,531,586      instructions                     #    3.49  insn per cycle            
+                                                  #    0.06  stalled cycles per insn   
+           993,572      branches                         #  231.702 M/sec                     
+            61,085      branch-misses                    #    6.15% of all branches           
+
+       0.005178993 seconds time elapsed
+
+       0.003157000 seconds user
+       0.002105000 seconds sys
+
+

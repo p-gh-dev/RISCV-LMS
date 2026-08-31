@@ -11,6 +11,7 @@
 #ifndef OSSL_INTERNAL_SHA3_H
 # define OSSL_INTERNAL_SHA3_H
 # pragma once
+#endif
 #ifdef RISCV
 # include "openssl_reqs/e_os2.h"
 #else
@@ -61,5 +62,3 @@ int ossl_sha3_squeeze(KECCAK1600_CTX *ctx, unsigned char *out, size_t outlen);
 
 size_t SHA3_absorb(uint64_t A[5][5], const unsigned char *inp, size_t len,
                    size_t r);
-
-#endif /* OSSL_INTERNAL_SHA3_H */

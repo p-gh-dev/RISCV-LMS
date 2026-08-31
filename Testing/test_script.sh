@@ -10,7 +10,7 @@ logfile="debug.log"
 for h in "${heights[@]}"; do
     for w in "${winternitz[@]}"; do
         for hash in "${hashes[@]}"; do
-            keyname="int_key_l1_h${h}_w${w}_sha${hash}"
+            keyname="csit_ossl_key_l1_h${h}_w${w}_sha${hash}"
             parmset="sha${hash}/${h}/${w}"
             cp lipsum lipsum_"$keyname"_mt 
             cp lipsum lipsum_"$keyname"_st

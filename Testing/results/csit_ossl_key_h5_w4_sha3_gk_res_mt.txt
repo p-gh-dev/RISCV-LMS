@@ -1,0 +1,22 @@
+# started on Thu Oct  9 16:02:09 2025
+
+
+ Performance counter stats for '../../demo genkey csit_ossl_key_h5_w4_sha3_mt sha3/5/4':
+
+             26.37 msec task-clock                       #    4.978 CPUs utilized             
+                 8      context-switches                 #  303.388 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               233      page-faults                      #    8.836 K/sec                     
+        51,304,219      cycles                           #    1.946 GHz                       
+         5,803,730      stalled-cycles-frontend          #   11.31% frontend cycles idle      
+       207,699,672      instructions                     #    4.05  insn per cycle            
+                                                  #    0.03  stalled cycles per insn   
+         5,194,184      branches                         #  196.981 M/sec                     
+           149,289      branch-misses                    #    2.87% of all branches           
+
+       0.005297485 seconds time elapsed
+
+       0.016350000 seconds user
+       0.002843000 seconds sys
+
+

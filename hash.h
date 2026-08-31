@@ -1,7 +1,9 @@
 #if !defined( HASH_H__ )
 #define HASH_H__
 #include "sha256.h"
+//#if USE_OPENSSL
 #include "ossl_sha3.h"
+//#endif
 #include <stddef.h>
 #include <stdbool.h>
 

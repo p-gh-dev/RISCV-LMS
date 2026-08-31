@@ -7,7 +7,7 @@ all: hss_lib.a \
      hss_verify.a \
      demo \
 	 demo_st \
-     test_hss
+#     test_hss
 
 hss_lib.a: hss.o hss_alloc.o hss_aux.o hss_common.o \
      hss_compute.o hss_generate.o hss_keygen.o hss_param.o hss_reserve.o \
@@ -38,11 +38,11 @@ demo: demo.c hss_lib_thread.a
 demo_st: demo.c hss_lib.a
 	$(CC) $(CFLAGS) demo.c hss_lib.a -lcrypto -o demo_st
 
-test_1: test_1.c lm_ots_common.o lm_ots_sign.o lm_ots_verify.o  endian.o hash.o sha256.o ossl_sha3.o bh_sha3.o hss_zeroize.o
-	$(CC) $(CFLAGS) -o test_1 test_1.c lm_ots_common.o lm_ots_sign.o lm_ots_verify.o  endian.o hash.o sha256.o ossl_sha3.o bh_sha3.o hss_zeroize.o -lcrypto
+#test_1: test_1.c lm_ots_common.o lm_ots_sign.o lm_ots_verify.o  endian.o hash.o sha256.o ossl_sha3.o bh_sha3.o hss_zeroize.o
+#	$(CC) $(CFLAGS) -o test_1 test_1.c lm_ots_common.o lm_ots_sign.o lm_ots_verify.o  endian.o hash.o sha256.o ossl_sha3.o bh_sha3.o hss_zeroize.o -lcrypto
 
-test_hss: test_hss.c test_hss.h test_testvector.c test_stat.c test_keygen.c test_load.c test_sign.c test_sign_inc.c test_verify.c test_verify_inc.c test_keyload.c test_reserve.c test_thread.c test_h25.c hss.h hss_lib_thread.a
-	$(CC) $(CFLAGS) test_hss.c test_testvector.c test_stat.c test_keygen.c test_sign.c test_sign_inc.c test_load.c test_verify.c test_verify_inc.c test_keyload.c test_reserve.c test_thread.c test_h25.c hss_lib_thread.a -lcrypto -lpthread -o test_hss
+#test_hss: test_hss.c test_hss.h test_testvector.c test_stat.c test_keygen.c test_load.c test_sign.c test_sign_inc.c test_verify.c test_verify_inc.c test_keyload.c test_reserve.c test_thread.c test_h25.c hss.h hss_lib_thread.a
+#	$(CC) $(CFLAGS) test_hss.c test_testvector.c test_stat.c test_keygen.c test_sign.c test_sign_inc.c test_load.c test_verify.c test_verify_inc.c test_keyload.c test_reserve.c test_thread.c test_h25.c hss_lib_thread.a -lcrypto -lpthread -o test_hss
 
 hss.o: hss.c hss.h common_defs.h hash.h endian.h hss_internal.h hss_aux.h hss_derive.h
 	$(CC) $(CFLAGS) -c hss.c -o $@

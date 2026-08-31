@@ -1,0 +1,22 @@
+# started on Thu Oct  9 16:02:27 2025
+
+
+ Performance counter stats for '../../demo_st genkey csit_ossl_key_h15_w2_sha2_st sha2/15/2':
+
+          1,634.61 msec task-clock                       #    0.999 CPUs utilized             
+                 3      context-switches                 #    1.835 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+               183      page-faults                      #  111.954 /sec                      
+     6,047,845,550      cycles                           #    3.700 GHz                       
+        75,551,475      stalled-cycles-frontend          #    1.25% frontend cycles idle      
+    21,263,814,541      instructions                     #    3.52  insn per cycle            
+                                                  #    0.00  stalled cycles per insn   
+     3,293,157,442      branches                         #    2.015 G/sec                     
+         3,104,389      branch-misses                    #    0.09% of all branches           
+
+       1.635641391 seconds time elapsed
+
+       1.633569000 seconds user
+       0.001999000 seconds sys
+
+

@@ -1,0 +1,22 @@
+# started on Fri Oct 10 08:37:20 2025
+
+
+ Performance counter stats for '../../demo sign csit_int_key_h5_w1_sha2_mt lipsum_csit_int_key_h5_w1_sha2_mt':
+
+              5.09 msec task-clock                       #    1.369 CPUs utilized             
+                11      context-switches                 #    2.162 K/sec                     
+                 1      cpu-migrations                   #  196.540 /sec                      
+                90      page-faults                      #   17.689 K/sec                     
+        12,388,453      cycles                           #    2.435 GHz                       
+         3,051,695      stalled-cycles-frontend          #   24.63% frontend cycles idle      
+        35,155,149      instructions                     #    2.84  insn per cycle            
+                                                  #    0.09  stalled cycles per insn   
+         2,930,237      branches                         #  575.909 M/sec                     
+            73,186      branch-misses                    #    2.50% of all branches           
+
+       0.003717575 seconds time elapsed
+
+       0.001082000 seconds user
+       0.003246000 seconds sys
+
+
